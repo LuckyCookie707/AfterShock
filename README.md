@@ -4,7 +4,7 @@ AfterShock is a beginner SOC Analyst tool. Its main function is to help myself (
 
 # Why did I make this?
 
-I made this tool because when I first got into cybersecurity through my university course and TryHackMe, I was able to understand the material and what was being presented. Yet, I wished I had tools with some training wheels attached — something that fed my curiosity a bit further. TryHackMe SOC simulations were great, but I found that when it came to IP Enrichment specifically, there wasn't a lot of hands-on material (or at least, not that I could find). So I made AfterShock for myself, and for others who might have the same level of curiosity or a desire for simple, beginner-friendly tools.
+I made this tool because when I first got into cybersecurity through my university course and TryHackMe, I was able to understand the material and what was being presented. Yet, I wished I had tools with some training wheels attached, something that fed my curiosity a bit further. TryHackMe SOC simulations were great, but I found that when it came to IP Enrichment specifically, there wasn't a lot of hands-on material (or at least, not that I could find). So I made AfterShock for myself, and for others who might have the same level of curiosity or a desire for simple, beginner-friendly tools.
 
 # REQUIREMENTS (IMPORTANT)
 
