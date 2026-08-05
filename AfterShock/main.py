@@ -4,7 +4,7 @@ import apachelogs
 import apachelogparse
 import time
 from ipenrichment import IPEnrichment
-
+import os
 
 
 
@@ -15,7 +15,14 @@ print("=" * 40)
 
 print("Loading IP database...")
 
-enrichment= IPEnrichment("ip2asn-v4.tsv")
+if not os.path.exists("ip2asn-v4.tsv"):
+    print("IP Database Required...")
+    print("Please download the IPv4 database here: ")
+    print("--- https://iptoasn.com/cloudflare-blocks-unverified-urls-and-doesnt-respond/ip2asn-v4.tsv.gz ---")
+    print("Place the extracted file into the project folder and rerun AfterShock")
+    exit()
+
+enrichment= IPEnrichment("ip2asn-v4.tsv") # If you change the IP Database file name then make sure to change it here as well!!!
 
 print("Database Loaded Successfully...")
 
