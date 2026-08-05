@@ -6,6 +6,13 @@ AfterShock is a beginner SOC Analyst tool. Its main function is to help myself (
 
 I made this tool because when I first got into cybersecurity through my university course and TryHackMe, I was able to understand the material and what was being presented. Yet, I wished I had tools with some training wheels attached — something that fed my curiosity a bit further. TryHackMe SOC simulations were great, but I found that when it came to IP Enrichment specifically, there wasn't a lot of hands-on material (or at least, not that I could find). So I made AfterShock for myself, and for others who might have the same level of curiosity or a desire for simple, beginner-friendly tools.
 
+# REQUIREMENTS (IMPORTANT)
+
+Before running the program please download the database file from IPtoASN IPv4 To ASN file from the following link: 
+https://iptoasn.com/cloudflare-blocks-unverified-urls-and-doesnt-respond/ip2asn-v4.tsv.gz
+After downloading and extracting the file. Place the .tsv file into the project folder before rerunning AfterShock.
+This file is absolutely needed for IP enrichment to work!
+
 # How does it work?
 
 It's quite straightforward! Upon running main.py, the user is prompted with 3 choices:
