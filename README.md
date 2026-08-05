@@ -83,7 +83,7 @@ Practice mode: bundle sanitized sample logs (including simulated scan/attack pat
 
 # Feedback
 
-This project is very much a work in progress, and I'd love feedback from anyone in the security community — especially fellow students or beginner analysts. Feel free to open an issue or reach out directly.
+This project is very much a work in progress, and I'd love feedback from anyone in the security community, especially fellow students or beginner analysts. Feel free to open an issue or reach out directly.
 
 # License
 
