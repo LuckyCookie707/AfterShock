@@ -60,13 +60,14 @@ End Of Enrichment
 Requirements
 Python 3.x
 
-Getting started
+# Getting started
 bash
 git clone https://github.com/<LuckyCookie707>/aftershock.git
 cd aftershock
+pip install apachelogs
 python main.py
 
-You'll also need a local copy of the ip2asn-v4.tsv database for IP enrichment to work — place it in AfterShock and update the path in main.py line 18 if needed.
+You'll also need a local copy of the ip2asn-v4.tsv database for IP enrichment to work, place it in AfterShock and update the path in main.py line 18 if needed.
 
 # Features
 Apache and Nginx log parsing
