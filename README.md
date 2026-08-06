@@ -9,8 +9,8 @@ I made this tool because when I first got into cybersecurity through my universi
 # REQUIREMENTS (IMPORTANT)
 
 Before running the program please download the database file from IPtoASN IPv4 To ASN file from the following link: 
-https://iptoasn.com/cloudflare-blocks-unverified-urls-and-doesnt-respond/ip2asn-v4.tsv.gz
-After downloading and extracting the file. Place the .tsv file into the project folder before rerunning AfterShock.
+https://iptoasn.com (MUST BE IPv4 to ASN)
+After downloading and extracting the file. Place the .tsv file into the project folder before running AfterShock.
 This file is absolutely needed for IP enrichment to work!
 
 # How does it work?
